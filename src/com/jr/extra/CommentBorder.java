@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.jr.extra;
 
 import java.awt.Component;
@@ -13,6 +8,7 @@ import java.awt.geom.RoundRectangle2D;
 import javax.swing.border.Border;
 
 /**
+ * Builds a border for comment display panel
  *
  * @author Julian Ragan
  */
@@ -20,6 +16,9 @@ public class CommentBorder implements Border {
 
     private int radius;
 
+    /**
+     * @param radius
+     */
     public CommentBorder(int radius) {
         this.radius = radius;
     }

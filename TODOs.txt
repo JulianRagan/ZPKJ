@@ -1,2 +1,0 @@
-1.Dodać informację w sekcji about o wykorzystywaniu ikony z 8icons.com
-2.Rozważyć wystawienie promienia obwódki komentarzy jako parametru komponentu
