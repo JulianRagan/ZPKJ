@@ -17,7 +17,7 @@ public class CommentBorder implements Border {
     private int radius;
 
     /**
-     * @param radius
+     * @param radius sets radius of the border
      */
     public CommentBorder(int radius) {
         this.radius = radius;

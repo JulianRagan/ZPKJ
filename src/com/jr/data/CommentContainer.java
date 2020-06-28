@@ -47,19 +47,21 @@ public class CommentContainer {
 
     /**
      *
-     * @param plainTextContent - plain text content of the comment
-     * @param author - author's full name
-     * @param htmlContent - html content for formatting
-     * @param lastEditAuthor - full name of the last person to edit the comment,
+     * @param plainTextContent plain text content of the comment
+     * @param author author's full name
+     * @param htmlContent html content for formatting
+     * @param lastEditAuthor full name of the last person to edit the comment,
      * may be null
-     * @param timestamp - comment's posting time
-     * @param lastEditTimestamp - comment's last edit date, may be null
-     * @param commentId - id of the comment
-     * @param referencedId - id of cited comment
-     * @param authorId - id of the author
-     * @param lastEditAuthorId - id of the last edit author
-     * @param refStart - start of citation in referenced comment
-     * @param refStop - end of citation in referenced comment
+     * @param timestamp comment's posting time
+     * @param lastEditTimestamp comment's last edit date, may be null
+     * @param commentId id of the comment
+     * @param referencedId id of cited comment
+     * @param authorId id of the author
+     * @param lastEditAuthorId id of the last edit author
+     * @param refStart start of citation in referenced comment
+     * @param refStop end of citation in referenced comment
+     * @param editPermission decides whether current user has permission to edit this comment
+     * @param deletePermission decides wheter current user has deletion permission fo this comment
      */
     public CommentContainer(String plainTextContent, String author, String htmlContent,
             String lastEditAuthor, Date timestamp, Date lastEditTimestamp,

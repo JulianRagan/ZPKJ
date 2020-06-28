@@ -47,7 +47,7 @@ import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLEditorKit;
 
 /**
- *
+ * Handles control of all components and interaction with comment provider
  * @author Julian Ragan
  */
 public class Controller {
@@ -135,7 +135,7 @@ public class Controller {
     /**
      * Registers Comment Provider and loads available comments
      *
-     * @param cp
+     * @param cp comment provider for current application context
      */
     public void registerCommentProvider(CommentProvider cp) {
         this.cp = cp;
@@ -152,8 +152,8 @@ public class Controller {
     /**
      * Registers comment/edit author information
      *
-     * @param id
-     * @param fullName
+     * @param id Author's id in the system or in the context of the provider
+     * @param fullName Author's full name, for comment display purposes
      */
     public void registerAuthor(int id, String fullName) {
         authorId = id;

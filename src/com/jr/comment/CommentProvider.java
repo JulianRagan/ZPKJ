@@ -55,7 +55,7 @@ public interface CommentProvider {
      * Should take container and properly upadet earlier comment content in the
      * context of application and storage medium
      *
-     * @param cc
+     * @param cc comment container 
      */
     public void updateComment(CommentContainer cc);
 
@@ -63,7 +63,7 @@ public interface CommentProvider {
      * Should take container and properly remove earlier comment content in the
      * context of application and storage medium
      *
-     * @param cc
+     * @param cc comment container 
      */
     public void removeComment(CommentContainer cc);
 
